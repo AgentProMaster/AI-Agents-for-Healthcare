@@ -1,4 +1,5 @@
 # AI Agents for Healthcare A Nutritionist AI Agent Tutorial on Development and Publishing to AI Agent Marketplace
+![AI Agent Marketplace](https://github.com/AgentProMaster/AI-Agents-for-Healthcare/blob/main/ai_agent_marketplace_screenshot.jpg)
 
 ## Introduction
 
@@ -33,12 +34,12 @@ Assistant: For a typical 15 Fluid Ounce Can Starbucks coffee, the energy is 47 k
 425.2 grams. The total calories are 200 kcal for each can of Starbucks Double Shot Energy Coffee Beverage.
 ```
 
-To fetch realtime data from USDA website, we need to get the detailed information of products samples "under" brand "Starbucks", adn get the nutritions information from the USDA website.
-
-For example, 
-goods name: Starbucks Double Shot Energy Coffee Beverage 15 Fluid Ounce Can
+To fetch realtime data from USDA website, we need to get the detailed information of products samples "under" brand "Starbucks", adn get the nutritions information from the USDA website. For example, goods name: Starbucks Double Shot Energy Coffee Beverage 15 Fluid Ounce Can
 Brand Owner: Pepsico Inc. Brand: Starbucks 
 https://fdc.nal.usda.gov/food-details/1167263/nutrients
+
+![USDA Food Calories](https://github.com/AgentProMaster/AI-Agents-for-Healthcare/blob/main/usda_demo.jpg
+)
 
 
 **1.2 Install Package HealthcareAgent**
@@ -201,6 +202,9 @@ def run_example():
 
 
 ## 2. Publish AI Agent to AI Agent Marketplace
+
+![AI Agent Marketplace](https://github.com/AgentProMaster/AI-Agents-for-Healthcare/blob/main/ai_agent_marketplace_screenshot.jpg)
+
 **2.1 Wrap up a Restful API of your AI Agent on Web Server**
 
 
@@ -233,7 +237,7 @@ The schema of registering your AI Agents contains below fields:
 |-----|-----|-----| 
 |Publisher | Your Company Name or Individual Developers | pub-my-healthcare-agent |
 |Content Name |Name of the AI Agent | Nutritionist AI Agent |
-|Website |https://{your_website} |  http://www.example.com  |
+|Website | Website Address |  http://www.example.com  |
 |Content | Description of the function of your AI Agents | A Nutritionist AI Agent which can help user calculate the calories of daily food. Useful for people on the diet or fitness enthusiastic. |
 |Category | Choose Option of Category |  AI Agent  |
 |Sub-Category | Choose Option of Category |  AI Agent  |
@@ -251,12 +255,11 @@ The Rest API Demo will be called when user clicked the Try API button on the pub
 After you published your AI Agent, the status will be pending and once approved you can visit the webpage of your published AI Agent at the address at 
 
 AI Agent Webpage Sample: 
-http://www.deepnlp.org/store/ai-agent/ai-agent/{publisher}/{content_name}
+
+http://www.deepnlp.org/store/ai-agent/ai-agent/pub-salesforce-ai-agent/salesforce-agentforce-ai-agent-review
 
 Your AI Agent will the be indexed by AI Agent Marketplace Search portal (http://www.deepnlp.org/search/agent/) and the detailed AI Agent page will also
 be indexed by Google within a short period of time (Depending on Google Crawler frequency and the content of your AI Agent). 
-
-[Image]
 
 
 
@@ -269,7 +272,7 @@ Government and Academic Resources
 USDA FoodData Central
 
 The official database from the U.S. Department of Agriculture. It provides accurate and verified calorie counts for raw, processed, and prepared foods.
-Website: fdc.nal.usda.gov
+Website: http://fdc.nal.usda.gov
 
 
 **3.2 Canada's Food Guide Nutritional Facts**
@@ -280,6 +283,18 @@ Apps and Online Tools
 
 
 ## 4. Related Reading
+### AI Agent Blogs
+[AI Agent Frameworks Benchmarks Types Examples and Marketplace Review A Comprehensive List](http://www.deepnlp.org/blog/ai-agent-review-benchmarks-and-environment-a-comprehensive-list) <br>
+[AgentBoard: AI Agent Visualization Toolkit for Agent Loop Workflow RAG Tool Use Functions Callings and Multi Modal Data Visualization](http://www.deepnlp.org/blog/agentBoard-ai-agent-visualization-toolkit-agent-loop-workflow) <br>
+[AI Agent Resources](http://www.deepnlp.org/blog?category=agent) <br>
+[Introduction to multimodal generative models](http://www.deepnlp.org/blog/introduction-to-multimodal-generative-models) <br>
+[Generative AI Search Engine Optimization](http://www.deepnlp.org/blog/generative-ai-search-engine-optimization-how-to-improve-your-content) <br>
+[AI Image Generator User Reviews](http://www.deepnlp.org/store/image-generator) <br>
+[AI Video Generator User Reviews](http://www.deepnlp.org/store/video-generator) <br>
+[AI Chatbot & Assistant Reviews](http://www.deepnlp.org/store/chatbot-assistant) <br>
+[AI Store-Best AI Tools User Reviews](http://www.deepnlp.org/store/pub/) <br>
+[AI Store Use Cases-Best AI Tools Cases User Reviews](http://www.deepnlp.org/store) <br>
+
 #### Search AI Agent & Robotics
 [AI Agent Search](http://www.deepnlp.org/search/agent/) <br>
 [Robot Search](http://www.deepnlp.org/search/robot) <br>
