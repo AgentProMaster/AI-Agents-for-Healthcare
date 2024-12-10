@@ -7,7 +7,7 @@ In this tutorial, I will give you a detailed introduction on how to develop an A
 For example, we will develop an **Nutritionist AI Agent** for users who wants to **keep healthy and fit**, knowing exactly how many calories they take from their daily food and drinks, such as 100g of Starbucks coffees, etc. For the RAG (queries realtime food calories information), we are getting the nutrition information from trustworthy data sources, for example **United States Department of Agriculture** (USDA), etc.
 
 
-##Prerequisite
+## Prerequisite
 - python 3.x
 - pip package "HealthcareAgent", realtime API of health and medical data
 - AI Agent Marketplace Account: We are using DeepNLP AI Agent Marketplace and Search Portal (http://deepnlp.org/search/agent/)
@@ -281,7 +281,7 @@ Apps and Online Tools
 
 ## 4. Related Reading
 #### Search AI Agent & Robotics
-[AI Agent Search](http://www.deepnlp.org/search/agent) <br>
+[AI Agent Search](http://www.deepnlp.org/search/agent/) <br>
 [Robot Search](http://www.deepnlp.org/search/robot) <br>
 [AI & Robot Comprehensive Search](http://www.deepnlp.org/search) <br>
 
@@ -293,7 +293,7 @@ Apps and Online Tools
 [Saleforce AI Agents Reviews](http://www.deepnlp.org/store/pub/pub-salesforce-ai-agent) <br>
 [Google AI Agents Reviews](http://www.deepnlp.org/store/pub/pub-google-ai-agent) <br>
 
-### AI Agent Workflow and AgentBoard
+#### AI Agent Workflow and AgentBoard
 [AI Agent Board Visualization](https://ai-hub-admin.github.io/agentboard) <br>
 [AI Agent Board](https://ai-hub-admin.github.io/agentboard/) <br>
 [AI Agent Pro Master](https://agentpromaster.github.io/ai-agent/) <br>
@@ -301,4 +301,9 @@ Apps and Online Tools
 [Chat Visualizer Agent](https://llmpro70b.github.io/Chat-Visualizer/) <br>
 [AI Agent Marketplace](https://agentpromaster.github.io/AI-Agent-Marketplace/) <br>
 
-
+#### Text2Video Generation
+[Sora User Review](http://www.deepnlp.org/store/pub/pub-sora) <br>
+[Sora vs Kling AI Review](http://www.deepnlp.org/store/compare/pub-sora-vs-pub-kling-kwai) <br>
+[Sora vs Dreamina Review](http://www.deepnlp.org/store/compare/pub-sora-vs-pub-dreamina-douyin) <br>
+[Sora vs Runway Review](http://www.deepnlp.org/store/compare/pub-sora-vs-pub-runway) <br>
+[Sora vs Lumina Review](http://www.deepnlp.org/store/compare/pub-sora-vs-pub-luma-ai) <br>
